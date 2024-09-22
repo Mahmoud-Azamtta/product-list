@@ -1,0 +1,44 @@
+.container > section:last-child {
+  margin-top: 1rem;
+}
+
+.container > section:last-child h2 {
+  margin-bottom: 1rem;
+}
+/*WARN: will be removed when products list is done and will be replaced with an img */
+.product .img {
+  height: 120px;
+  width: 120px;
+  background-color: gray;
+  border-radius: 0.75rem;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: 1fr; /* repeat(2, 1fr); */
+  gap: 1.5rem;
+}
+
+.product {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px #a8998442;
+}
+
+.price {
+  margin-top: 1rem;
+}
+
+@media (min-width: 750px) {
+  #products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container > section:last-child {
+    margin-left: 2rem;
+  }
+}
