@@ -5,12 +5,17 @@
 .container > section:last-child h2 {
   margin-bottom: 1rem;
 }
-/*WARN: will be removed when products list is done and will be replaced with an img */
-.product .img {
+
+.product .product-img {
   height: 120px;
   width: 120px;
   background-color: gray;
   border-radius: 0.75rem;
+}
+
+.product .product-img img {
+  width: 100%;
+  border-radius: 0.5rem;
 }
 
 #products {
@@ -31,6 +36,13 @@
   margin-top: 1rem;
 }
 
+.empty {
+  font-size: 0.9rem;
+  color: #a89984;
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
 @media (min-width: 750px) {
   #products {
     grid-template-columns: repeat(2, 1fr);
@@ -40,5 +52,6 @@
 @media (min-width: 1200px) {
   .container > section:last-child {
     margin-left: 2rem;
+    margin-top: 0;
   }
 }
