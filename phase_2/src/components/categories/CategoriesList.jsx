@@ -1,3 +1,4 @@
+import list from "../../assets/list.svg";
 import { useState } from "react";
 import "./categories-style.css";
 
@@ -23,8 +24,8 @@ export const CategoriesList = ({
     <>
       <div className="section-header">
         <h2>Categories</h2>
-        <button onClick={() => setDropped(true)}>
-          <i className="fa-solid fa-bars"></i>
+        <button onClick={() => setDropped(!dropped)}>
+          <img src={list} alt="Dropdown list button" />
         </button>
       </div>
       <div id="categories" className={dropped ? "droped" : ""}>

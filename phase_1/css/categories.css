@@ -31,7 +31,7 @@
   transition: grid-template-rows 0.15s;
 }
 
-.container > section:first-child #categories.droped {
+.container > section:first-child #categories.dropped {
   grid-template-rows: 1fr;
 }
 

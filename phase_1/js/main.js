@@ -168,6 +168,16 @@ const handleCategorySelection = () => {
   });
 };
 
+const handleDropdown = () => {
+  const dropdownList = document.getElementById("categories");
+  const dropdownBtn = document.getElementById("dropdown-btn");
+  dropdownBtn.addEventListener("click", () => {
+    console.log("click");
+    dropdownList.classList.toggle("dropped");
+  });
+};
+
 renderCategories(allCategories);
 renderProducts(allProducts);
 handleCategorySelection();
+handleDropdown();
