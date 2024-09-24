@@ -1,13 +1,13 @@
 # Product List
 
-A simple Front end project for an application to displays a list of products, and the user can filter them by category.
+A simple Front end project for an application to display a list of products, and the user can filter them by category.
 
 ## About the repo
 
-This project has to part (phase 1, phase 2), the same application is developed in both phases, but in different approaches.
+This project has to part (phase 1 and phase 2). The same application is developed in both phases, but in different approaches.
 
-1. Phase 1: using HTML, CSS, and JavaScript.
-2. Phase 2: using React.
+1. Phase 1: The convensional way using HTML, CSS, and JavaScript.
+2. Phase 2: Using React.
 
 ## Running the application
 
